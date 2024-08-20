@@ -129,10 +129,6 @@
   .logo-image {
     width: 3rem;
   }
-  .menu ul li a {
-    padding: 1.8rem;
-    font-size: 1rem;
-  }
 }
 @media only screen and (max-width: 480px) {
   .logo-image {
@@ -151,5 +147,12 @@
   .img-icon img {
     width: 1.2rem;
     height: 1.2rem;
+  }
+  .menu{
+    top: 3rem;
+  }
+  .menu ul li a{
+    font-size: 1rem;
+    padding: 1.8rem;
   }
 }
