@@ -1,0 +1,373 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container2 {
+  width: 100%;
+  padding: 0rem 5rem;
+}
+/* first section with background image */
+.aboutus-header {
+  background-image: url(../img/Islands.jfif);
+  background-size: cover;
+  background-position: center;
+  height: 28.15rem;
+}
+.aboutus-header-title {
+  display: flex;
+  justify-content: center;
+}
+.aboutus-header-title h1 {
+  font-size: 4.5rem;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 5.5rem;
+}
+/* About us section */
+.aboutus-first {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  padding: 3rem 17%;
+}
+.aboutus-first-ads {
+  height: auto;
+  position: relative;
+}
+.aboutus-ads-card {
+  width: 100%;
+  height: 31rem;
+}
+.ads-card-pic {
+  width: 100%;
+  height: 78%;
+}
+.ads-card-pic img {
+  width: 100%;
+  height: 100%;
+}
+.ads-card-text {
+  background-color: #04043c;
+  height: 22%;
+  text-align: center;
+}
+p.ads-number {
+  color: #fff;
+  font-size: 3rem;
+  padding-top: 0.6rem;
+}
+p.ads-text {
+  color: #fff;
+}
+.aboutus-ads-circle {
+  color: #fff;
+  text-align: center;
+  background-color: #f0932b;
+  padding: 1.5rem 2rem;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 20rem;
+  left: -4rem;
+  z-index: 1;
+}
+p.circle-number {
+  font-size: 2.5rem;
+}
+p.circle-text {
+  font-size: 1rem;
+}
+.aboutus {
+  color: #f4a54a;
+  font-size: 1.5rem;
+  padding: 0.8rem 0rem;
+}
+.with-us p {
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+.with-us-description p {
+  color: #a7a2a2;
+}
+/* (what we do) section */
+.aboutus-middle-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.aboutus-middle-pic {
+  width: 29rem;
+  height: 36rem;
+}
+.aboutus-middle-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.aboutus-middle-text {
+  width: 29rem;
+  height: 36rem;
+  background-color: #04043c;
+}
+p.middle-text-f {
+  color: #f4a54a;
+  font-size: 1.7rem;
+  padding: 7rem 0rem 1rem 1rem;
+}
+p.middle-text-m {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #fff;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+p.middle-text-l {
+  color: #fff;
+  padding-left: 1.1rem;
+}
+.middle-text-btn {
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+.middle-text-btn a {
+  text-decoration: none;
+  padding: 0.6rem 1.4rem;
+  color: #fff;
+  background-color: #f0932b;
+  border-radius: 1.5rem;
+}
+/* tour leaders introduction */
+.aboutus-last {
+  margin: 6rem 0rem;
+}
+.ourteam-intro {
+  padding-left: 9.3rem;
+  margin-bottom: 1.5rem;
+}
+p.ourteam {
+  color: #f4a54a;
+  font-size: 1.7rem;
+  margin-bottom: 0.9rem;
+}
+p.with-us {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+.aboutus-last-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.aboutus-last-card {
+  width: 20rem;
+  height: auto;
+  padding: 0.6rem;
+}
+.tourg-guid {
+  width: 100%;
+  height: 24rem;
+  box-shadow: 0px 2px 3px #bbb;
+}
+.tour-guid-pic {
+  width: 100%;
+  height: 17.5rem;
+}
+.tour-guid-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.guids-name {
+  font-size: 1.2rem;
+  padding: 1rem 0.6rem;
+}
+.guids-title {
+  font-size: 1.1rem;
+  padding: 0rem 0.6rem;
+  color: #f4a54a;
+}
+/* responsive with media query */
+@media only screen and (max-width: 1024px) {
+  .container2 {
+    padding: 0rem 2rem;
+  }
+  .aboutus-first {
+    padding: 3rem;
+  }
+  .with-us p {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container2 {
+    padding: 0rem 1.5rem;
+  }
+  .aboutus-header {
+    height: 22rem;
+  }
+  .aboutus-header-title h1 {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+  }
+  .aboutus-first-ads {
+    width: auto;
+    height: auto;
+    position: relative;
+    margin: 3rem auto;
+  }
+  .aboutus-first-card {
+    margin: 2rem auto;
+    height: auto;
+    width: 9rem;
+  }
+  .aboutus-first {
+    padding: 0rem 2rem;
+  }
+  .aboutus-ads-card {
+    height: 28rem;
+  }
+  p.ads-number {
+    font-size: 1.8rem;
+    padding-top: 1.2rem;
+  }
+  p.circle-number {
+    font-size: 2rem;
+  }
+  .aboutus-ads-circle {
+    padding: 1.2rem;
+    top: -1rem;
+    left: 10rem;
+  }
+  .aboutus {
+    font-size: 1.3rem;
+  }
+  .with-us p {
+    font-size: 1.8rem;
+  }
+  .aboutus-middle-pic {
+    display: none;
+  }
+  .aboutus-middle-text {
+    background-image: url(../img/wallpaper.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 60%;
+  }
+  p.middle-text-f {
+    font-size: 1.1rem;
+    padding-top: 5rem;
+  }
+  p.middle-text-m {
+    font-size: 1.6rem;
+  }
+  .middle-text-btn a {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+  .middle-text-btn {
+    margin-top: 2.2rem;
+  }
+  .aboutus-middle-text {
+    width: 27rem;
+    height: 29rem;
+  }
+  p.ourteam {
+    font-size: 1.3rem;
+  }
+  p.with-us {
+    font-size: 1.6rem;
+  }
+  .aboutus-last {
+    margin: 4rem 0rem;
+  }
+  .ourteam-intro {
+    padding-left: 6rem;
+  }
+  .aboutus-last-card {
+    width: 17rem;
+  }
+  .tourg-guid {
+    height: 22rem;
+  }
+  .tour-guid-pic {
+    height: 16rem;
+  }
+  .guids-name,
+  .guids-title {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .container2 {
+    padding: 0rem 1rem;
+  }
+  .aboutus-header {
+    height: 12rem;
+  }
+  .aboutus-header-title h1 {
+    font-size: 1.8rem;
+    margin-top: 1.3rem;
+  }
+  .aboutus-first {
+    flex-wrap: wrap;
+  }
+  .aboutus {
+    font-size: 1rem;
+  }
+  .with-us p {
+    font-size: 1.5rem;
+  }
+  .with-us-description p {
+    font-size: 0.9rem;
+  }
+  .aboutus-first-card {
+    width: auto;
+    margin: 1rem 2rem 0rem 2rem;
+  }
+  .aboutus-first-ads {
+    margin-top: 1.5rem;
+  }
+  p.ads-number {
+    font-size: 1.8rem;
+    padding-top: 1.5rem;
+  }
+  p.circle-number {
+    font-size: 1.5rem;
+  }
+  .aboutus-middle-pic {
+    display: none;
+  }
+  p.middle-text-f {
+    font-size: 1.2rem;
+    padding-top: 3rem;
+  }
+  p.middle-text-m {
+    font-size: 1.6rem;
+  }
+  .middle-text-btn a {
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
+  }
+  .aboutus-middle-text {
+    height: 27rem;
+    margin: 0rem 1rem;
+  }
+  .middle-text-btn {
+    margin-top: 2rem;
+  }
+  p.circle-text {
+    font-size: 0.8rem;
+  }
+  .ourteam-intro {
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+  }
+}
