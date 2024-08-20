@@ -23,14 +23,19 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 6.2rem;
+  margin-top: 11rem;
 }
 .cta h1 {
-  font-size: 6.2rem;
-  color: #fff;
+  font-size: 6rem;
+  color:white;
+}
+.cta h2{
+  font-size: 5rem;
+  color:white;
 }
 .cta p {
   color: #fff;
+  font-size: 1.4rem;
 }
 .cta-btn {
   display: flex;
@@ -50,7 +55,7 @@
   background-image: url(../img/adventure.jfif);
   background-size: cover;
   background-position: 100% 70%;
-  height: 50rem;
+  height: 55rem;
 }
 /* the book form */
 .form {
@@ -58,7 +63,7 @@
   height: auto;
   position: absolute;
   z-index: 1;
-  top: 45rem;
+  top: 50rem;
   left: 0;
 }
 .form-row {
@@ -67,7 +72,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 2rem 1rem;
+  padding: 2.5rem 1rem;
   margin: 0rem 4rem;
 }
 .form-input {
@@ -77,7 +82,7 @@
 .form-input label {
   display: block;
   color: #f4a54a;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 400;
 }
 .form-input input {
@@ -87,6 +92,7 @@
   padding: 1rem 0rem;
   margin-top: 1rem;
   outline: none;
+  font-size: 1rem;
 }
 .form-row-btn {
   margin-left: 3rem;
@@ -103,7 +109,7 @@
 .btn-style {
   background-color: #f0932b;
   color: #fff;
-  padding: 0.8rem 0.5rem;
+  padding: 0.9rem;
   border-radius: 1.3rem;
   border: none;
 }
@@ -115,17 +121,17 @@
   padding: 0rem 4.5rem 2.5rem 4.5rem;
 }
 .tours-intro-text h3 {
-  font-size: 2.8rem;
+  font-size: 3rem;
   margin: 1.2rem 0rem;
 }
 .tours-intro-p {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 a.btn-style {
   text-decoration: none;
 }
 .tours-intro-btn {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 .tours-item {
   display: flex;
@@ -222,6 +228,9 @@ a.btn-style {
   .cta h1 {
     font-size: 5rem;
   }
+  .cta h2{
+    font-size: 4rem;
+  }
   .form-row {
     padding: 1.3rem 1rem;
   }
@@ -262,6 +271,12 @@ a.btn-style {
 @media only screen and (max-width: 768px) {
   .cta h1 {
     font-size: 3rem;
+  }
+  .cta h2{
+    font-size: 2.4rem;
+  }
+  .cta p {
+    font-size: 1.2rem;
   }
   .header {
     height: 35rem;
@@ -364,6 +379,9 @@ a.btn-style {
   .cta h1 {
     font-size: 1.5rem;
   }
+  .cta h2{
+    font-size: 1.2rem;
+  }
   .cta p {
     font-size: 0.8rem;
     padding: 0rem 0.5rem;
@@ -380,7 +398,7 @@ a.btn-style {
     height: 20rem;
   }
   .cta {
-    margin-top: 1.5rem;
+    margin-top: 3rem;
   }
   .container {
     padding: 0rem 1rem;
